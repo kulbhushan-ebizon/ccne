@@ -1,0 +1,32 @@
+
+/**
+ * Home > Content > Faces in Nursing
+ */
+
+#home {
+    clear: both;
+}
+
+
+
+/**
+ * Home > Action Items
+ */
+
+#home #action-items {
+  clear: both;
+  width: 860px;
+  height: 80px;
+  overflow: hidden;
+  margin-top: 16px;
+  text-align: center;
+}
+
+#home #action-items ul li {
+  float: left;
+  padding-right: 20px;
+}
+
+#home #action-items ul li.last {
+  padding: 0;
+}
