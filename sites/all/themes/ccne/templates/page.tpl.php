@@ -184,7 +184,7 @@
 			</div>
 	       <?php endif; ?>
 
-                <?php if ($main_menu): ?>
+                <?php /*if ($main_menu): ?>
                   <div id="main-menu" class="navigation">
                       <?php
                       print theme('links__system_main_menu', array(
@@ -198,9 +198,17 @@
                           'level' => 'h2',
                           'class' => array('element-invisible'),
                         ),
-                      ));
+                      ));*/
                       ?>
-                  </div> <!-- /#main-menu -->
+                  <!--/div> <!-- /#main-menu -->
+                  
+		  <?php if ($page['header_menu']): ?>
+			<div id="main-menu" class="navigation">
+			    <?php print render($page['header_menu']); ?>
+			</div>
+	       <?php endif; ?>
+                  
+                  
                 <?php endif; ?>
                 <?php /* if ($breadcrumb): ?>
                   <div id="breadcrumb"><?php print $breadcrumb; ?></div>
