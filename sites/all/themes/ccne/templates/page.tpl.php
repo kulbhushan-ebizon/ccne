@@ -185,7 +185,11 @@
                       </div>
                   </div> <!-- /.section, /#sidebar-first -->
                 <?php endif; ?>          
-
+		<?php if ($page['banner']): ?>
+			<div id="banner">
+			    <?php print render($page['banner']); ?>
+			</div>
+	       <?php endif; ?>
 
                 <?php if ($main_menu): ?>
                   <div id="main-menu" class="navigation">
