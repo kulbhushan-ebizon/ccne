@@ -177,14 +177,7 @@
 
         <div id="main-wrapper" class="clearfix">
             <div id="main" class="clearfix">
-
-                <?php if ($page['sidebar_first']): ?>
-                  <div id="sidebar-first" class="column sidebar">
-                      <div class="section">
-                          <?php print render($page['sidebar_first']); ?>
-                      </div>
-                  </div> <!-- /.section, /#sidebar-first -->
-                <?php endif; ?>          
+   
 		<?php if ($page['banner']): ?>
 			<div id="banner">
 			    <?php print render($page['banner']); ?>
