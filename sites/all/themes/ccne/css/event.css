@@ -1,0 +1,294 @@
+
+/**
+ * Event Calendar
+ */
+
+
+.event-calendar table {
+  border-collapse: collapse;
+  width: 860px;
+}
+
+.event-calendar table tr {
+  background: #ffffff;
+}
+
+.event-calendar table tr td,
+.event-calendar table tr th {
+  padding: 0px;
+  border: 1px solid #5e6a71;
+}
+
+.event-calendar table tr th {
+  color: #000000;
+  text-align: center;
+}
+
+.event-calendar table tr.month-view td,
+.event-calendar table tr.week-view td {
+  width: 14%;
+}
+
+.event-calendar table tr td {
+  color: #666666;
+  font-size: 11px;
+  text-align: right;
+  vertical-align: top;
+}
+
+
+/**
+ * Caption
+ */
+
+.event-calendar table caption,
+.event-calendar table caption a {
+  color: #000000;
+}
+
+
+/**
+ * Caption Navigation
+ */
+
+.event-calendar table caption {
+  font-size: 24px;
+  color: #0098db;
+  padding-bottom: 5px;
+  margin-bottom: 16px;
+}
+
+.event-calendar table caption span a {
+  text-decoration: none;
+}
+
+.event-calendar table caption .prev {
+  text-align: left;
+}
+
+.event-calendar table caption .next {
+  text-align: right;
+}
+
+
+/**
+ * Days of the Week
+ */
+
+.event-calendar table thead tr th {
+  color: #ffffff;
+  background: #A2C5D8;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+
+
+/**
+ * Day Background Colors
+ */
+
+.event-calendar table tbody td {
+  width: 14%;
+  height: 100px;
+  background: #f1f1f1;
+  padding-bottom: 4px;
+}
+
+.event-calendar table tbody td.sat,
+.event-calendar table tbody td.sun {
+  background: #e4e4e4;
+}
+
+.event-calendar table tbody td.selected,
+.event-calendar table tbody td.selected a {
+
+}
+
+.event-calendar table tbody td.today,
+.event-calendar table tbody td.today a {
+
+}
+
+.event-calendar table tbody td.year,
+.event-calendar table tbody td.month {
+  text-align: center;
+  border-width: 1px 0px;
+}
+
+
+/**
+ * Floating Day
+ */
+
+.event-calendar table tbody td div.day {
+  color: #363636;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-right: 4px;
+  text-align: right;
+}
+
+
+/**
+ * Multi-Day Top Stripes
+ */
+
+.event-calendar .event .stripe,
+.event-calendar .event .stripe-1,
+.event-calendar .event .stripe-2,
+.event-calendar .event .stripe-3,
+.event-calendar .event .stripe-4,
+.event-calendar .event .stripe-5,
+.event-calendar .event .stripe-6,
+.event-calendar .event .stripe-7,
+.event-calendar .event .stripe-8,
+.event-calendar .event .stripe-9,
+.event-calendar .event .stripe-10 {
+  display: none;
+  height: 5px;
+}
+
+.event-calendar .event .stripe-1 {
+  background-color: #7ccbd5;
+}
+
+.event-calendar .event .stripe-2 {
+  background-color: #aec13d;
+}
+
+.event-calendar .event .stripe-3 {
+  background-color: #911f1a;
+}
+
+.event-calendar .event .stripe-4 {
+  background-color: #ee3126;
+}
+
+.event-calendar .event .stripe-5 {
+  background-color: #666666;
+}
+
+.event-calendar .event .stripe-6 {
+  background-color: #7ccbd5;
+}
+
+.event-calendar .event .stripe-7 {
+  background-color: #aec13d;
+}
+
+.event-calendar .event .stripe-8 {
+  background-color: #911f1a;
+}
+
+.event-calendar .event .stripe-9 {
+  background-color: #ee3126;
+}
+
+.event-calendar .event .stripe-10 {
+  background-color: #666666;
+}
+
+
+/**
+ * Event Node Times (for the body)
+ */
+
+.event-nodeapi div {
+
+}
+
+.event-nodeapi div label {
+  color: #999999;
+}
+
+
+/**
+ * Individual Node Container
+ */
+
+.event-calendar div.event {
+  background: #ffffff;
+  margin: 4px;
+  padding: 6px;
+  text-align: left;
+}
+
+.event-calendar div.title {
+  color: #0098db;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.event-calendar div.title a,
+.event-calendar div.title a:hover {
+  color: #0098db;
+  text-decoration: none;
+}
+
+.event-calendar .otherEvent div.title,.event-calendar .otherEvent div.title a,.event-calendar .otherEvent div.title a:hover ,.event-calendar .otherEvent a{
+    color: #FF6E00;
+}
+
+.event-calendar div.type {
+  margin-left: 5px;
+  font-size: 10px;;
+}
+
+.event-calendar div.type a {
+  color: #00c;
+}
+
+.event-calendar div.type a:hover {
+  color: #c00;
+}
+
+.event-calendar div.links {
+  padding-left: 3px;
+}
+
+.event-calendar div.links a {
+  color: #00c;
+}
+
+.event-calendar div.links a:hover {
+  color: #c00;
+}
+
+.event-calendar .start,
+.event-calendar .end,
+.event-calendar .ongoing {
+  font-size: 11px;
+  font-style: normal;
+}
+
+.event-calendar div.info {
+  visibility: hidden;
+  height: 0px;
+  overflow:hidden;
+  padding-left: 3px;
+}
+
+
+/**
+ * iCal / Feed Links
+ */
+
+.ical-link {
+  display: none;
+}
+
+.feed-icon {
+  display: none;
+}
+
+
+/**
+ * Hide Links to Different Views
+ */
+
+#content-menu_page ul.links {
+  display: none;
+}
