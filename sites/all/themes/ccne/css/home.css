@@ -47,3 +47,11 @@
     padding: 2px;
 }
 
+#search-block-form #edit-submit{
+	background: url("../images/buttons/search.gif");
+    font-size: 0px;
+    background-repeat: no-repeat;
+    padding: 15px 42px 6px 20px;
+    border: none;
+}
+
