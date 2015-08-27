@@ -221,7 +221,7 @@
                       </div>
                   </div> <!-- /.section, /#sidebar-first -->
                 <?php endif; ?>
-
+				<div id="home">
                 <div id="content" class="column">
                     <div class="section">
                         <?php if ($page['highlighted']): ?>
@@ -260,7 +260,7 @@
                       </div>
                   </div> <!-- /.section, /#sidebar-second -->
                 <?php endif; ?>
-
+				</div>
             </div></div> <!-- /#main, /#main-wrapper -->
 
         <?php if ($page['triptych_first'] || $page['triptych_middle'] || $page['triptych_last']): ?>
