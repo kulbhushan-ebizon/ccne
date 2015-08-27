@@ -288,6 +288,7 @@
                 <?php if ($page['footer']): ?>
                   <div id="footer" class="clearfix">
                       <?php print render($page['footer']); ?>
+                      <p>Copyright &copy; 2015 Colorado Center of Nursing Excellence. All rights reserved.</p>
                   </div> <!-- /#footer -->
                 <?php endif; ?>
 
