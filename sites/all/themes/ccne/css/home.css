@@ -96,3 +96,53 @@
     color: #666;
     margin: 0 7px;
 }
+
+/** mailing block **/
+
+#block-block-2{
+	background: #8faec0;
+    border: 3px solid #e6e6e6;
+    margin-top: 10px;
+}
+
+#sidebar-second h2{
+	color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 7px;
+    text-transform: uppercase;
+    padding: 0px;
+    line-height: 13px;
+}
+
+#block-block-2 #mailing-list-form{
+	background: #9ec3d5;
+    color: #fff;
+    padding: 10px;
+}
+
+#block-block-2 form p {
+    margin: 0 0 10px 0;
+}
+#block-block-2 form fieldset label {
+    display: block;
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+#block-block-2 form fieldset label input {
+    width: 175px;
+    border: 1px solid #adacb4;
+    color: #999;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 2px;
+}
+#block-block-2 form fieldset {
+    text-align: right;
+}
+#block-block-2 {
+    background: #8faec0;
+    border: 3px solid #e6e6e6;
+    margin-top: 10px;
+}
