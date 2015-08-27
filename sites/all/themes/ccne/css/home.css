@@ -146,3 +146,21 @@
     border: 3px solid #e6e6e6;
     margin-top: 10px;
 }
+
+/** home page css **/
+
+.view-faces-in-nursing .padding img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.view-faces-in-nursing .padding{
+	color: #323128;
+    padding: 20px;
+}
+.view-faces-in-nursing .nursing-name em{
+	font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+}
