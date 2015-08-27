@@ -178,3 +178,16 @@
 #footer p{
 	margin-left: 6px;
 }
+
+#home .field-name-field-subtitle .field-item {
+	color: #ea8d30;
+    font-size: 14px;
+    margin: 15px 0;
+    padding: 0;
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
