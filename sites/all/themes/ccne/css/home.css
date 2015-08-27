@@ -191,3 +191,69 @@
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+/** local menu block css **/
+
+#block-menu-block-1{
+	background: #ea8d30;
+    border: 1px solid #ea8d30;
+}
+
+#block-menu-block-1 h2 {
+	background: url("../images/sub/subnav/down.gif") right center no-repeat;
+	color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 7px;
+    text-transform: uppercase;
+    padding: 0px;
+    line-height: 13px;
+}
+
+#block-menu-block-1 .content .parent-mlid-0  ul.menu{
+	background: #fff;
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+.parent-mlid-0 ul.menu li {
+    list-style: none ;
+    list-style-image: none;
+    margin: 0 ;
+    padding: 0;
+}
+
+#block-menu-block-1 .menu-block-0 ul.menu li.active-trail {
+    background: #f4f3f1;
+}
+
+#block-menu-block-1 .menu-block-0 ul.menu li.active-trail a {
+    background: url("../images/sub/subnav/arrows.gif") 10px 10px no-repeat;
+    color: #908e79;
+}
+
+#block-menu-block-1 .content .parent-mlid-0  ul.menu li a {
+    background: url("../images/sub/subnav/arrows.gif") 10px 10px no-repeat;
+    color: #908e79;
+    display: block;
+    font-size: 13px;
+    height: 1%;
+    padding: 4px 20px;
+}
+
+#block-menu-block-1 .content ul.menu li a:hover {
+    color: #ea8d30;
+}
+
+#block-menu-block-1 ul.menu li.active-trail a:hover {
+    color: #ea8d30;
+}
+
+#block-menu-block-1 ul.menu li.active-trail ul li a {
+    background: none;
+    color: #ea8d30;
+    font-size: 12px;
+    line-height: normal;
+    padding: 4px 24px;
+}
