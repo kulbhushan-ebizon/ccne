@@ -275,6 +275,8 @@
         <div class="clear"></div>
         <?php if ($is_front): ?>
 			<div class="actions-items"></div>
+		<?php else: ?>	
+				<div class="actions-items-inner"></div>
 		<?php endif; ?>
         <div id="footer-wrapper">
             <div class="section">
