@@ -273,7 +273,9 @@
           </div> <!-- /#triptych, /#triptych-wrapper -->
         <?php endif; ?>
         <div class="clear"></div>
-<div class="actions-items"></div>
+        <?php if ($is_front): ?>
+			<div class="actions-items"></div>
+		<?php endif; ?>
         <div id="footer-wrapper">
             <div class="section">
 
