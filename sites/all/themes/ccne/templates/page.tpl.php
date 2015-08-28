@@ -272,7 +272,8 @@
               </div>
           </div> <!-- /#triptych, /#triptych-wrapper -->
         <?php endif; ?>
-
+        <div class="clear"></div>
+<div class="actions-items"></div>
         <div id="footer-wrapper">
             <div class="section">
 
