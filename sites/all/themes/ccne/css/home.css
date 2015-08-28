@@ -269,4 +269,13 @@
     margin-top: 16px;
     text-align: center;
 }
+.actions-items-inner{
+
+    clear: both;
+    width: 860px;
+    height: 14px;
+    overflow: hidden;
+    margin-top: 16px;
+    text-align: center;
+}
 
