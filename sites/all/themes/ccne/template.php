@@ -154,3 +154,15 @@ function ccne_field__taxonomy_term_reference($variables) {
 
   return $output;
 }
+/**
+  * Implements hook_theme().
+  */
+function ccne_theme() {
+	
+  return array( 'contact_site_form' => array(
+    'render element' => 'form',
+    'path' => drupal_get_path('theme', 'ccne') . '/templates',
+    'template' => 'contact-site-form',
+    ),
+  );
+}
